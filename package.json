@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/dtia/elaina-portfolio-site#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "underscore": "^1.8.3"
   }
 }
