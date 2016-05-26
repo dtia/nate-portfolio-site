@@ -1,0 +1,15 @@
+.elaina {
+	padding-bottom: 80px;
+}
+
+.project-title {
+	float: left;
+}
+
+.project-caption {
+	float: right;
+}
+
+.project-image {
+	clear: both;
+}

@@ -2,6 +2,10 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
+<% if (typeof css !== 'undefined') { %>
+<link rel="stylesheet" href="<%- css %>">
+<% } %>
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 <head>
@@ -21,11 +25,11 @@
 	    		<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
 			    	<ul class="dropdown-menu">
-				        <li><a href="#">Project 1</a></li>
+				        <li><a href="/express-project">Express Project</a></li>
 				        <li role="separator" class="divider"></li>
-				        <li><a href="#">Project 2</a></li>
+				        <li><a href="/glip-project">Glip Project</a></li>
 				        <li role="separator" class="divider"></li>
-				        <li><a href="#">Project 3</a></li>
+				        <li><a href="/iwatch-project">iWatch Project</a></li>
 			      	</ul>
 			    </li>
 			    <li><a href="/about">About</a></li>
