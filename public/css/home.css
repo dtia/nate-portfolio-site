@@ -13,3 +13,9 @@
 .project-image {
 	clear: both;
 }
+
+.row-center {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
