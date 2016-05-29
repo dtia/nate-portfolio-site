@@ -1,0 +1,18 @@
+ul {
+	list-style-type: none;
+}
+
+#project-nav {
+	margin-top: 10px;
+}
+
+#project-nav li{
+	display: inline;
+	margin: 0 10px;
+}
+
+.screenshots-before-after {
+	float: left;
+	display: block;
+	text-align: center;
+}
