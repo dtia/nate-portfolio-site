@@ -16,7 +16,6 @@ ul#project-nav li {
 	margin: 20px 0;
 }
 
-/*.before-after-header {
-	display: block;
-	text-align: center;
-}*/
+.indent-usability-header {
+	margin-left: 48px;
+}
