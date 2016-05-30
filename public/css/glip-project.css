@@ -1,18 +1,22 @@
-ul {
-	list-style-type: none;
-}
-
-#project-nav {
+ul#project-nav {
 	margin-top: 10px;
 }
 
-#project-nav li{
+ul#project-nav li {
+	list-style-type: none;
 	display: inline;
 	margin: 0 10px;
 }
 
 .screenshots-before-after {
-	float: left;
-	display: block;
 	text-align: center;
 }
+
+.before-after-list li {
+	margin: 20px 0;
+}
+
+/*.before-after-header {
+	display: block;
+	text-align: center;
+}*/
