@@ -1,5 +1,29 @@
+#project-nav {
+	margin-top: 10px;
+}
+
+#project-nav li{
+	display: inline;
+	margin: 0 35px;
+}
+
+
 img {
 	display: block;
 	max-width: 100%;
 	height: auto;
+}
+
+.banner {
+	background: #0684BD;
+	color: white;
+	width: 100%;
+}
+
+.banner img {
+	margin-bottom: -16px;
+}
+
+.nav-separator {
+	padding-top: 16px;
 }

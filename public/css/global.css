@@ -14,11 +14,6 @@ body {
 	font-family: 'proxima-nova';
 }
 
-#project-nav {
-	margin-top: 10px;
-}
-
-#project-nav li{
-	display: inline;
-	margin: 0 10px;
+.text-center {
+	text-align: center;
 }
