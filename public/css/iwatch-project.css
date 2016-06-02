@@ -1,5 +1,23 @@
+#project-nav {
+	margin-top: 10px;
+}
+
+#project-nav li{
+	display: inline;
+	margin: 0 23px;
+}
+
 img {
 	display: block;
 	max-width: 100%;
 	height: auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.banner {
+	background: #4E81BB;
+	color: white;
 }

@@ -13,3 +13,16 @@
 body {
 	font-family: 'proxima-nova';
 }
+
+ul {
+	list-style-type: none;
+}
+
+#project-nav {
+	margin-top: 10px;
+}
+
+#project-nav li{
+	display: inline;
+	margin: 0 10px;
+}
