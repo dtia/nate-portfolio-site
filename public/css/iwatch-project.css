@@ -27,6 +27,11 @@ img {
 	padding: 20px;
 }
 
+.gray-square-large {
+	background: #F2F2F2;
+	padding: 10px 50px 50px;
+}
+
 .top-gap {
 	margin-top: 25px;
 }
