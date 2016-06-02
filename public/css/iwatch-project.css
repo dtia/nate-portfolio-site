@@ -18,6 +18,15 @@ img {
 }
 
 .banner {
-	background: #4E81BB;
+	background: #0684BD;
 	color: white;
+}
+
+.gray-square {
+	background: #F2F2F2;
+	padding: 20px;
+}
+
+.top-gap {
+	margin-top: 25px;
 }
