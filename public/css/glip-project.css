@@ -19,3 +19,9 @@ ul#project-nav li {
 .indent-usability-header {
 	margin-left: 40px;
 }
+
+.banner {
+	background: #0684BD;
+	color: white;
+	width: 100%;
+}
