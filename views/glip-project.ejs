@@ -187,3 +187,170 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="row">
+		<div class="col-md-10 col-centered">
+			<p>
+				With an iOS app in development and ready to ship, the next focus was to optimize the app’s usability and interactions for Android. The following screens were redesigned with native Android interactions and Material Design principles.
+			</p>
+			<div class="indent-usability-header">
+				<h4>Navigation</h4>
+				<p>
+					On every Android phone, a device navigation bar persists at the bottom with the Back, Home, and Overview controls. In designing the Glip Android app, we realized that placing an app navigation at the bottom would add another navigation very close to the system navigation, which could easily cause selection mishaps and would demonstrate an atypical layout for this OS.
+				</p>
+				<div class="text-center">
+					<img src="/images/projects/glip-project/13-Device-Nav.png">
+				</div>
+				<p>
+					For a navigation that felt native on Android, we used a conventional navigation drawer that would swipe from the left. Since one could scroll up and down in a left drawer, this design would be scalable if we ever needed to expand the list of menu items.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-10 col-centered">
+			<div class="col-md-5 col-md-offset-2">
+				<img src="/images/projects/glip-project/14-Nav-on-iOS.png">		
+			</div>
+			<div class="col-md-5">
+				<img src="/images/projects/glip-project/16-Nav-on-Android.png">		
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-10 col-centered">
+			<div class="indent-usability-header">
+				<h4>Messages Screen Filters</h4>
+				<p>
+					On the Messages screen, we wanted to preserve the filters in order to provide users the ability to switch between different message views by sender. These filters would be helpful for those looking for direct 1-1 messages amongst an influx of team messages, for example.
+				</p>
+				<div class="text-center">
+					<img src="/images/projects/glip-project/15-Filters-on-iOS.png">
+				</div>
+				<p>
+					We wanted to preserve the filters on the Messages screen since it would be helpful for those looking for direct 1-1 messages amongst an influx of team messages, for example. With testing however, users expressed that the iOS filter design looked like a main menu on Android.
+				</p>
+				<div class="text-center">
+					<figure>
+						<figcaption>TABS - EXPECTED BEHAVIOR ON ANDROID</figcaption>
+						<img src="/images/projects/glip-project/17-Tabs-expected-behavior.png">
+					</figure>
+				</div>
+				<p>
+					This was understandable, as sectional tabs on the top of an Android app typically served as the app’s primary navigation. Also, since we now moved the primary navigation out from the bottom of the screen, users would immediately see a row of filter icons upon arrival, and incorrectly identify as the primary navigation.
+				</p>
+				<div class="text-center">
+					<figure>
+						<figcaption>FILTERS ON ANDROID</figcaption>
+						<img src="/images/projects/glip-project/18-filters-on-android.png">
+					</figure>
+				</div>
+				<p>
+					In order to avoid confusing the primary app navigation with the Message filters, we collapsed the filters into a dropdown. This design enabled users to understand the relationship of the filters to the Messages page, and also reduced the noise on the screen, allowing the messages to take center stage.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-10 col-centered">
+			<div class="indent-usability-header">
+				<h4>Floating Action Button</h4>
+				<p>
+					Consistent with material design standards, we used a floating action button (FAB) to promote the primary action on a page.
+				</p>
+				<div class="text-center">
+					<img src="/images/projects/glip-project/19-FAB-shell.png">
+				</div>
+				<p>
+					Since the primary objective of the Glip mobile app was messaging, we wanted to distinguish and promote the action of messaging—either creating a new one or finding an existing one—as the primary action on the page using a floating action button.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-10 col-centered">
+			<div class="col-md-5 col-md-offset-2 text-center">
+				<figure>
+					<figcaption>COMPOSE MESSAGE ON IOS</figcaption>
+					<img id="compose-message-ios" src="/images/projects/glip-project/19-compose-msg-iOS.png">
+				</figure>
+			</div>
+			<div class="col-md-5 text-center">
+				<figure>
+					<figcaption>COMPOSE MESSAGE ON ANDROID</figcaption>
+					<img src="/images/projects/glip-project/20-compose-msg-android.png">
+				</figure>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-10 col-centered">
+			<div class="indent-usability-header">
+				<h4>Thread Action Sheet</h4>
+				<p>
+					One major difference between iOS and Android is the file storage feature on Android. In addition to the photo library, users can upload content from a number of folders on the Android OS, such as from Screenshots, Downloads, or Google Drive.
+				</p>
+				<div class="text-center">
+					<figure>
+						<figcaption>ANDROID SYSTEM</figcaption>
+						<img id="compose-message-ios" src="/images/projects/glip-project/21-android-file-storage.png">
+					</figure>
+				</div>
+				<p>
+					Given the robust file storage system on Android, we made available the option to upload not only photos (as consistent with iOS), but also the ability to upload any file from the device.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-10 col-centered">
+			<div class="col-md-5 col-md-offset-2 text-center">
+				<figure>
+					<figcaption>ACTION SHEET ON IOS</figcaption>
+					<img src="/images/projects/glip-project/21-action-sheet-ios.png">
+				</figure>
+			</div>
+			<div class="col-md-5 text-center">
+				<figure>
+					<figcaption>ACTION SHEET ON ANDROID</figcaption>
+					<img id="action-sheet-android" src="/images/projects/glip-project/22-action-sheet-android.png">
+				</figure>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-10 col-centered">
+			<h3>Final Android Designs</h3>
+		</div>
+		<div class="col-md-10 col-centered text-center">
+			<div class="row gray-square">
+				<div class="col-md-4">
+					<img src="/images/projects/glip-project/23-Login-Screen-android.png">
+				</div>
+				<div class="col-md-4">
+					<img src="/images/projects/glip-project/24-android-msgs-home.png">
+				</div>
+				<div class="col-md-4">
+					<img src="/images/projects/glip-project/25-android-shelf.png">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-10 col-centered">
+			<h3>Next Steps</h3>
+			<p>
+				The app is currently in development, slated to launch in the App Store in July 2016. In the meantime, I am pursuing research for the next iteration to better understand workflows for Glip users on mobile. I am also working together with the product team to determine the appropriate intersection of Glip’s team collaboration features with RingCentral’s suite of cloud communications apps.
+			</p>
+		</div>
+	</div>
+
+</div>

@@ -30,3 +30,11 @@ ul#project-nav li {
 	background: #F2F2F2;
 	padding: 25px 0 25px;
 }
+
+#compose-message-ios {
+	margin-left: 36px;
+}
+
+#action-sheet-android {
+	margin-left: 40px;
+}
