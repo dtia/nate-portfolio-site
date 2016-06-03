@@ -25,3 +25,8 @@ ul#project-nav li {
 	color: white;
 	width: 100%;
 }
+
+.gray-square {
+	background: #F2F2F2;
+	padding: 25px 0 25px;
+}
