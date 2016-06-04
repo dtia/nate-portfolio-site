@@ -38,3 +38,15 @@ ul#project-nav li {
 #action-sheet-android {
 	margin-left: 40px;
 }
+
+.image-top-bottom-margin {
+	margin: 18px;
+}
+
+.image-bottom-margin {
+	margin-bottom: 20px;
+}
+
+.android-row-margin {
+	margin: 20px;
+}
