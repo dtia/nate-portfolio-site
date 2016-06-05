@@ -29,3 +29,20 @@ img {
 .nav-separator {
 	padding-top: 16px;
 }
+
+.text-wrap-img-width {
+	width: 90%;
+	padding: 0.5em 0.5em 0.5em 5em;
+	color: #244D67;
+}
+
+.gif-width {
+	width: 65%;
+}
+
+.gif-caption {
+	width: 90%;
+    padding: 0.5em 5em 0.5em 12em;
+    text-align: center;
+    color: #244D67;
+}
