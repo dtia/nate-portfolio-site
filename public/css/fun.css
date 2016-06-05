@@ -1,10 +1,21 @@
+#bm-carousel {
+	margin-top: 50px;
+}
+
 #bm-carousel img {
-	max-height: 350px;
+	max-height: 100%;
 }
 
 #bm-carousel img {
 	float: none;
 	margin: 0 auto;
+}
+
+.close-button {
+	margin-top: 25px;
+	margin-right: 25px;
+	color: white;
+	font-size: 30px;
 }
 
 
@@ -14,6 +25,7 @@
 	height: 150px;
 	overflow: hidden;
 	border: 1px solid #ddd;
+	cursor: pointer;
 }
 
 #photo-grid .photo-item img {
@@ -22,3 +34,4 @@
 	height: 100%;
 	width: 100%;
 }
+
