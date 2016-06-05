@@ -33,16 +33,20 @@ img {
 .text-wrap-img-width {
 	width: 90%;
 	padding: 0.5em 0.5em 0.5em 5em;
-	color: #244D67;
+	color: #adabab;
 }
 
 .gif-width {
 	width: 65%;
 }
 
+.gif-width-sim-seq {
+	width: 90%;
+}
+
 .gif-caption {
 	width: 90%;
     padding: 0.5em 5em 0.5em 12em;
     text-align: center;
-    color: #244D67;
+    color: #adabab;
 }
