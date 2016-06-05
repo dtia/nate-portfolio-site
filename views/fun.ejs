@@ -11,96 +11,105 @@
 		<p>In 2013, she worked with a group of friends to submit an art concept to be displayed at Burning Man. The piece was a 16-foot wooden sculpture named “Enlightenment” to symbolize a meditating man and to represent the culture of China and Taiwan. The piece was chosen as one of the 24 pieces in the Circle of Regional Effigies, bringing awareness to the Chinese culture. Elaina led this project in terms of design, project management, fundraising, marketing efforts, and execution. You can view more details about this project in their <a href="http://www.kickstarter.com/projects/1039056968/enlightenment-china-taiwan-core-at-burning-man-201" target="_blank">Kickstarter campaign</a> and <a href="https://www.facebook.com/ChinaTaiwanBurningManCoreProject" target="_blank">Facebook page</a>.</p>
 	</div>
 
+	<div class="modal fade" id="fun-modal" tabindex="-1" role="dialog">
+		<div class="col-md-12">
+			<div class="row">
+				<button type="button" class="close close-button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			
+				<%- include('carousels/fun-carousel') -%>
+			
+		</div>
+	</div>
+
 	<div id="photo-grid" class="col-md-10 col-md-offset-2">
 		<div class="row">
 			<div class="col-md-3">
-				<div class="photo-item">
+				<div class="photo-item" data-toggle="modal" data-target="#fun-modal" data-index="0">
 					<img src="images/fun/logo2wbkgd.jpg">
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="photo-item">
+				<div class="photo-item" data-toggle="modal" data-target="#fun-modal" data-index="1">
 					<img src="images/fun/man4.png">
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="photo-item">
+				<div class="photo-item" data-toggle="modal" data-target="#fun-modal" data-index="2">
 					<img src="images/fun/3D4.png">
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-3">
-				<div class="photo-item">
+				<div class="photo-item" data-toggle="modal" data-target="#fun-modal" data-index="3">
 					<img src="images/fun/3D3.png">
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="photo-item">
+				<div class="photo-item" data-toggle="modal" data-target="#fun-modal" data-index="4">
 					<img src="images/fun/assembly1.jpg">
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="photo-item">
+				<div class="photo-item" data-toggle="modal" data-target="#fun-modal" data-index="5">
 					<img src="images/fun/pendants.jpg">
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-3">
-				<div class="photo-item">
+				<div class="photo-item" data-toggle="modal" data-target="#fun-modal" data-index="6">
 					<img src="images/fun/assembly.jpg">
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="photo-item">
+				<div class="photo-item" data-toggle="modal" data-target="#fun-modal" data-index="7">
 					<img src="images/fun/IMG_2593-1024x682.jpg">
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="photo-item">
+				<div class="photo-item" data-toggle="modal" data-target="#fun-modal" data-index="8">
 					<img src="images/fun/IMG_2638-1024x682.jpg">
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-3">
-				<div class="photo-item">
+				<div class="photo-item" data-toggle="modal" data-target="#fun-modal" data-index="9">
 					<img src="images/fun/IMG_2769-682x1024.jpg">
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="photo-item">
+				<div class="photo-item" data-toggle="modal" data-target="#fun-modal" data-index="10">
 					<img src="images/fun/IMG_2635-1024x682.jpg">
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="photo-item">
+				<div class="photo-item" data-toggle="modal" data-target="#fun-modal" data-index="11">
 					<img src="images/fun/IMG_2780-1024x682.jpg">
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-3">
-				<div class="photo-item">
+				<div class="photo-item" data-toggle="modal" data-target="#fun-modal" data-index="12">
 					<img src="images/fun/IMG_2786-682x1024.jpg">
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="photo-item">
+				<div class="photo-item" data-toggle="modal" data-target="#fun-modal" data-index="13">
 					<img src="images/fun/IMG_2530-1024x1024.jpg">
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="photo-item">
+				<div class="photo-item" data-toggle="modal" data-target="#fun-modal" data-index="14">
 					<img src="images/fun/burn.jpg">
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<div class="col-md-8 col-md-offset-2">
-		<%- include('carousels/fun-carousel') -%>
-	</div>
 </div>
+
+<script src="js/fun.js"></script>
 <%- include('footer') -%>
