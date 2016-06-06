@@ -4,7 +4,6 @@ $('.photo-item').click(function(e) {
 });
 
 $(document).keydown(function(e) {
-	console.log('hi2');
 	if(e.which === 39) {
         $('#bm-carousel').carousel('next');
     }
