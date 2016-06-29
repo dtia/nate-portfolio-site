@@ -1,3 +1,17 @@
+.greeting-name {
+	font-style: normal;
+	font-weight: 600;
+	color: #444;
+	text-rendering: optimizelegibility;
+}
+
+.greeting-description {
+	font-style: normal;
+	font-weight: 400;
+	color: #999;
+	text-rendering: optimizelegibility;
+}
+
 .elaina {
 	padding-bottom: 80px;
 }
