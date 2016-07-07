@@ -2,3 +2,7 @@
 	float: right;
 	width: 200px;
 }
+
+.paragraph-spacing {
+	margin: 0 0 30px;
+}
