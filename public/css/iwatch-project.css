@@ -41,3 +41,8 @@ img {
 .recent-contacts-left-padding {
 	padding-left: 31px;
 }
+
+.carousel-inner img {
+	width: 408px;
+	height: 400px;
+}
