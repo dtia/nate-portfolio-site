@@ -17,7 +17,7 @@ img {
 }
 
 .banner {
-	background: #0684BD;
+	background-image: url(/images/projects/express-project/0-Express_Setup_bkgd_gradient.png);
 	color: white;
 	width: 100%;
 }

@@ -21,7 +21,7 @@ ul#project-nav li {
 }
 
 .banner {
-	background: #0684BD;
+	background-image: url(/images/projects/glip-project/0-Glip_bkgd_gradient.png);
 	color: white;
 	width: 100%;
 }

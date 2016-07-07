@@ -14,7 +14,7 @@ img {
 }
 
 .banner {
-	background: #0684BD;
+	background-image: url(/images/projects/iwatch-project/0-iWatch_bkgd_gradient.png);
 	color: white;
 	width: 100%;
 }
