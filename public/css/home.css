@@ -1,19 +1,21 @@
 .greeting-name {
 	font-style: normal;
-	font-weight: 600;
+	font-size: 40;
+	font-weight: 800;
 	color: #444;
 	text-rendering: optimizelegibility;
 }
 
 .greeting-description {
 	font-style: normal;
+	font-size: 31px;
 	font-weight: 400;
 	color: #999;
 	text-rendering: optimizelegibility;
 }
 
 .elaina {
-	padding-bottom: 80px;
+	padding-bottom: 60px;
 }
 
 .project-title {
@@ -39,4 +41,8 @@ img {
 	display: block;
 	max-width: 100%;
 	height: auto;
+}
+
+.row-topspace {
+	margin-top: 45px;
 }

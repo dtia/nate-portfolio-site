@@ -18,6 +18,15 @@ body {
 	text-align: center;
 }
 
+.header-margin {
+    margin: 8px;
+}
+
+.project-subtitle {
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
 #footer {
 	margin-top: 100px;
 	margin-bottom: 20px;
