@@ -36,6 +36,13 @@ body {
 	margin-bottom: 20px;
 }
 
+.btn-blue {
+    margin-top: 10px;
+    color: #1785BB;
+    background-color: #fff;
+    border-color: #1785BB;
+}
+
 /* Social Links */
 .social {
     margin: 0;
