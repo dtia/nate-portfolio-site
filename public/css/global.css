@@ -4,14 +4,14 @@
 }
 
 @font-face {
-  font-family: 'proxima-nova';
+  font-family: 'sinkin-sans';
   font-style:  normal;
   font-weight: 400;
-  src: url(../fonts/proxima-nova.otf) format('opentype');
+  src: url(../fonts/SinkinSans-400Regular.otf) format('opentype');
 }
 
 body {
-	font-family: 'proxima-nova';
+	font-family: 'sinkin-sans';
 }
 
 .text-center {
@@ -43,6 +43,41 @@ body {
     border-color: #1785BB;
 }
 
+/* Navbar */
+/* navbar */
+.navbar-default {
+    background-color: #3D3D3D;
+    border-color: #E7E7E7;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFFFFF;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFFFFF;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+    background-color: #5a6970;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #FFFFFF;
+    background-color: #5a6970;
+}
+
 /* Social Links */
 .social {
     margin: 0;
@@ -64,7 +99,7 @@ body {
     width: 27px;
     height: 27px;
     color: #FFF;
-    background-color: #909AA0;
+    background-color: #3D3D3D;
     font-size: 15px;
     text-align:center;
     padding-top: 8px;

@@ -5,3 +5,7 @@
 .email {
 	margin: 45px;
 }
+
+.email img {
+	width: 255px;
+}
