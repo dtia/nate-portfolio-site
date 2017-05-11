@@ -46,7 +46,7 @@ body {
 /* Navbar */
 /* navbar */
 .navbar-default {
-    background-color: #3D3D3D;
+    background-color: #222222;
     border-color: #E7E7E7;
 }
 /* Title */
@@ -99,7 +99,7 @@ body {
     width: 27px;
     height: 27px;
     color: #FFF;
-    background-color: #3D3D3D;
+    background-color: #222222;
     font-size: 15px;
     text-align:center;
     padding-top: 8px;
